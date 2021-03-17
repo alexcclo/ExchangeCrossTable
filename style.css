@@ -1,0 +1,93 @@
+body {
+		background: #ffffff;
+		margin: 0;
+		padding: 20px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	   	font-weight: 300;
+	}
+
+	#table {
+		display: table;
+	 	width: 40%; 
+	 	background: #fff;
+	 	margin: 0;
+	 	box-sizing: border-box;
+
+	 }
+
+	 .header-row {
+	 	background: #fff;
+	 	color: rgb(12, 12, 12);
+
+	 }
+
+	.row {
+		display: table-row;
+	}
+
+	.cell {
+		display: table-cell;
+		padding: 6px; 
+		border-bottom: 1px solid #e5e5e5;
+		text-align: center;
+		vertical-align: middle;
+		height:35px;
+		color:rgb(26, 118, 238);
+	}
+
+	.cellc {
+		display: table-cell;
+		padding: 6px; 
+		border-bottom: 1px solid #e5e5e5;
+		text-align: center;
+		vertical-align: middle;
+		height:35px;
+		color:rgb(0, 0, 0);
+	}
+
+	.cellb {
+		display: table-cell;
+		padding: 6px; 
+		border-bottom: 1px solid #ffffff;
+		vertical-align: top;
+		text-align: center;
+		height:10px;
+		color:rgb(26, 118, 238);
+		font-weight: bold;
+		
+	}
+
+	.cellt {
+		display: table-cell;
+		padding: 6px; 
+		border-bottom: 1px solid #ffffff;
+		vertical-align: top;
+		text-align: center;
+		height:10px;
+		color:rgb(0, 0, 0);
+		font-weight: bold;
+		font-size: medium;
+		
+	}
+
+	.celll {
+		display: table-cell;
+		padding: 6px; 
+		border-bottom: 1px solid #ffffff;
+		vertical-align: top;
+		text-align: inherit;
+		height:10px;
+		color:rgb(0, 0, 0);
+		width: min-content;
+		font-size: small;
+		vertical-align: bottom;
+		font-weight: bold;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-top: auto;
+		margin-right: auto;
+	  }
+	
